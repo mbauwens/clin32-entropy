@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "clin32-entropy"
+version = "0.1.0"
+description = ""
+authors = ["mbauwens <michael.bauwens@ucll.be>"]
+
+[tool.poetry.dependencies]
+python = "3.10"
+pandas = "^1.4.2"
+matplotlib = "^3.5.2"
+scipy = "^1.8.1"
+nltk = "^3.7"
+spacy = "^3.3.1"
+numpy = "^1.22.4"
+seaborn = "^0.11.2"
+ipykernel = "^6.15.0"
+jupyter = "^1.0.0"
+jupytext = "^1.13.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
