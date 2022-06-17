@@ -64,7 +64,7 @@ def score_sentences(corpus, lm):
                         'prob_list': prob_list}
 
     fdist = {'fd': fdist,
-         'total': fdist.total(),
+         'total': sum(fdist.values()),
          'rel_fd': {}}
 
     for key in fdist['fd'].keys():
