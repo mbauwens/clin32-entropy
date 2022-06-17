@@ -44,7 +44,7 @@ data = [[w.lower() for w in s] for s in gutenberg.sents('austen-emma.txt')]
 # If you want to try this notebook with your own dataset, you can provide the text files. The function `import_data` _should_ transform the data into the correct format for the language modelling (a list of sentences, each consisting of lists of tokenised words). Currently the function is configured to support Dutch and English via the `lang` parameter. Should you require a different language, you can adapt the function (for language supported in spaCy v3, see [spacy.io/usage/models](https://spacy.io/usage/models)).
 
 # +
-# data = import_data("/path/to/directory/", lang="ens")
+# data = import_data("/path/to/directory/", lang="en")
 # -
 
 # ## Train the language model
