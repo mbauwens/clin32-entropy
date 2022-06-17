@@ -13,7 +13,7 @@ This repository contains a Jupyter Notebook with the main flow, a paired Python 
 
 Check it out on [Google Colab](https://colab.research.google.com/drive/1NtwOvY58SYT7YkIwEFMm2_XBR1zMJp7U?usp=sharing)
 
-In the `/poster_and_abstract` folder, you'll find (as expected) the poster and abstracted which were presented on CLIN32.
+In the `/poster_and_abstract` folder, you'll find (as expected) the poster and abstract which were presented on CLIN32.
 
 - [Abstract on CLIN32 website](https://clin2022.uvt.nl/limitations-of-the-entropy-measure-in-n-gram-language-modelling/)
 - [UCLL Research & Expertise](https://research-expertise.ucll.be/)
