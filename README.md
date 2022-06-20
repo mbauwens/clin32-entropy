@@ -1,5 +1,5 @@
 # Limitations of the entropy measure in n-gram language modelling (CLIN32)
-### by Michael Bauwens (UCLL Research & Expertise)
+### by Michael Bauwens, Peter Vanbrabant, José Tummers (UCLL Research & Expertise - Smart Organisations)
 
 This demo accompanies the poster presentation "Limitations of the entropy measure in n-gram language modelling". It provides the functionality to:
 - import data (default: Jane Austen's "Emma")
