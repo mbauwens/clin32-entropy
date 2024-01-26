@@ -98,7 +98,6 @@ def relfreq_weighted_shannon_entropy(sent_dict_entry, fdist, lm, length_normalis
     """Relative frequency weighted Shannon entropy: weight each probability used in the Shannon entropy formula by the
     relative frequency of the trigram. In case of <UNK> tokens, weight with the minimum relative frequency in the dataset.
     Also includes the possibility to length normalise."""
-    sent_dict_entry_cp = sent_dict_entry
     def contains_UNK(tri):
         bool_list = []
         for t in tri.split():
